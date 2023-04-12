@@ -35,7 +35,7 @@
       "AWS_DEFAULT_REGION": "us-east-1",
       "PORT": "3838",
       "ENV": {
-        "R_CONFIG_ACTIVE": "1kD", 
+        "R_CONFIG_ACTIVE": "1kD",
         "client_name": "dccvalidator"
       },
       "TAGS": {
@@ -51,7 +51,7 @@
       "AWS_DEFAULT_REGION": "us-east-1",
       "PORT": "3838",
       "ENV": {
-        "R_CONFIG_ACTIVE": "1kD", 
+        "R_CONFIG_ACTIVE": "1kD",
         "client_name": "dccvalidator"
       },
       "TAGS": {
