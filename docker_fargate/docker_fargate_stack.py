@@ -59,7 +59,7 @@ class DockerFargateStack(Stack):
             SECRETS_MANAGER_ENV_NAME: get_secret(self, secret_name, secret_name)
         }
 
-        env_vars = {}
+        env_vars = {"R_CONFIG_ACTIVE":"1kD", "client_name":"dccvalidator"}
         container_env = get_container_env(env)
         if container_env is not None:
             env_vars[ENV_NAME]=container_env
